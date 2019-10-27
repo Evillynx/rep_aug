@@ -1,0 +1,22 @@
+#one{
+    background-color: palevioletred;
+}
+#three{
+    background: palevioletred;
+}
+h1{
+    background: lightskyblue;
+    text-align: center;
+}
+h2,h3,img,#intro{
+    margin-left: 10px;
+}
+nav li{
+    margin-bottom: 8px;
+}
+img{
+    border: 6px dotted darkcyan;
+    height: 350px;
+    width: 350px;
+    padding: 4px;
+}
