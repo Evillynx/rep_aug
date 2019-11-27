@@ -20,3 +20,18 @@ img{
     width: 350px;
     padding: 4px;
 }
+table, tr, th,td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{
+    background-color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+tr:hover{
+    background-color: lightgrey;
+}
+tr:nth-child(odd){
+    background-color: wheat;
+}
