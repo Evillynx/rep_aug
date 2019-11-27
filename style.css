@@ -35,3 +35,20 @@ tr:hover{
 tr:nth-child(odd){
     background-color: wheat;
 }
+nav{
+    position: fixed;
+    width: 310px;
+    height: 72px;
+    background-color: red;
+    top: 60;
+    left: -284px;
+    border-radius: 13px;
+}
+nav:hover{
+    position: fixed;
+    width: 310px;
+    height: 72px;
+    background-color: red;
+    top: 60;
+    left: 0px;
+}
