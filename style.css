@@ -1,8 +1,8 @@
 #one{
-    background-color: palevioletred;
+    background-color: whitesmoke;
 }
 #three{
-    background: palevioletred;
+    background: whitesmoke;
 }
 h1{
     background: lightskyblue;
@@ -36,19 +36,22 @@ tr:nth-child(odd){
     background-color: wheat;
 }
 nav{
-    position: fixed;
+    position: relative;
     width: 310px;
     height: 72px;
-    background-color: red;
-    top: 60;
+    background-color: lightpink;
     left: -284px;
     border-radius: 13px;
+    padding: 10px;
 }
 nav:hover{
-    position: fixed;
+    position: relative;
     width: 310px;
     height: 72px;
-    background-color: red;
-    top: 60;
+    background-color: lightpink;
     left: 0px;
+    padding: 10px;
+}
+li{
+    list-style-type: none;
 }
